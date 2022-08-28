@@ -34,7 +34,7 @@
 
 
 
-// First solution
+// First solution here we exceeded the time complexy as the program was supposed to cleared by 10 ** 9 time but it exceeded to 10**14 which took more than 1 sec
 
 import java.util.*;
   
