@@ -7,33 +7,30 @@
 // 3. Take a number "n" as input "t" number of times.
 // 4. For each input value of n, print "prime" if the number is prime and "not prime" otherwise.
 
-import java.util.*;
+import java.util.Scanner;
 
-public class Main {
-
+public class prime {
   public static void main(String[] args) {
-    Scanner scn = new Scanner(System.in);
-    int t = scn.nextInt();
-   
-    
-    for (int i = 0; i < t; i++) {
-      int n = scn.nextInt();
-       
-        int counter=0;
-        for(int div=1; div<=n ; div++){
-            if(n%div==0){
-                counter++;
-            }
-        }
-        
-        if(counter==2){
-            System.out.println("Prime");
-        }
-        else{
-            System.out.println("not Prime");
-        }
-        
-    }
+    Scanner sc= new Scanner(System.in);
+    System.out.print("Enter the Number of Test Cases : ");
+    int t = sc.nextInt();
 
+    for (int i =0;i<t;i++){
+      int n = sc.nextInt();
+      int counter=0;
+      for(int div=1;div<=n;div++){
+        if(n%div==0){
+          counter++;
+        }
+      }
+
+      if(counter==2){
+        System.out.println("Prime Number");
+      }
+      else{
+        System.out.println("Not Prime Number");
+      }
+    }
   }
 }
+
