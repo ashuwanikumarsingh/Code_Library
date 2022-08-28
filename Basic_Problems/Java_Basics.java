@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class input_loops_conditions {
   public static void main(String[] args) {
    
-    GETTING USER INPUT
+//     GETTING USER INPUT
 
     Scanner sc = new Scanner(System.in);
     System.out.print("Enter number : ");
@@ -15,7 +15,7 @@ public class input_loops_conditions {
     //if we use next in place of nextLine then it will not read after space
 
 
-     PRINT STATEMENTS
+//      PRINT STATEMENTS
 
     int exp = (int)Math.pow(2, 3);
     System.out.println(exp);
@@ -30,7 +30,7 @@ public class input_loops_conditions {
 
 
 
-    MATH OPERATION AND EXPRESSIONS
+//     MATH OPERATION AND EXPRESSIONS
 
     int x=10;
     int y=5;
@@ -45,7 +45,7 @@ public class input_loops_conditions {
 
 
 
-    IF ELse Elseif
+//     IF ELse Elseif
 
     Scanner sc = new Scanner(System.in);
     System.out.print("Enter a Number : ");
@@ -74,7 +74,7 @@ public class input_loops_conditions {
     }
 
 
-    Garding system using if else\
+//     Garding system using if else\
 
     Scanner sc = new Scanner(System.in);
     System.out.print("Enter a Number : ");
@@ -116,7 +116,7 @@ public class input_loops_conditions {
     }
 
     
-    TAKING USER INPUT
+//     TAKING USER INPUT
 
     Scanner sc = new Scanner(System.in);
     int a = sc.nextInt();
@@ -127,7 +127,7 @@ public class input_loops_conditions {
     String name = sc.next();
     System.out.println("Hello "+name);
 
-    TAKING INTEGER AND STRING AT THE SAME TIME TO AVOID BUG WE NEED TO PARSE INTO INTEGER
+//     TAKING INTEGER AND STRING AT THE SAME TIME TO AVOID BUG WE NEED TO PARSE INTO INTEGER
 
     
     Scanner sc = new Scanner(System.in);
